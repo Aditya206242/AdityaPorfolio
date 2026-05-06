@@ -44,7 +44,7 @@ function App() {
                 <div className="max-w-[1440px] 2xl:max-w-[1800px] mx-auto px-4 sm:px-6 py-2 sm:py-4 flex items-center justify-between relative">
                     <div className="flex items-center gap-2 sm:gap-3 md:pl-12">
                         <img src="/images/imag3e-removebg-preview.png" width="32" height="32"
-                            className="logo-img w-7 h-7 sm:w-8 2xl:w-10 sm:h-8 2xl:h-10 object-cover rounded-full bg-gradient-to-r from-purple-500 to-indigo-500" alt="Satya Prakash" />
+                            className="logo-img w-7 h-7 sm:w-8 2xl:w-10 sm:h-8 2xl:h-10 object-cover rounded-full bg-gradient-to-r from-purple-500 to-indigo-500" alt="Aditya kumar" />
                     </div>
                     <nav className="hidden md:flex gap-5 xl:gap-8 2xl:gap-8 text-gray-700 font-medium cursor-pointer text-sm xl:text-base 2xl:text-lg">
                         <a className="hover:text-purple-600 transition" href="#home">Home</a>
@@ -67,7 +67,7 @@ function App() {
                             <i className="bx bx-moon theme-switch-icon moon"></i>
                         </div>
                         <div className="download-wrapper flex items-center justify-center">
-                            <a href="/Satya_Prakash_Resume.pdf" download="Satya_Prakash_Resume.pdf" className="cssbuttons-io-button shadow-lg">
+                            <a href="/RESUME_ADITYA_KUMAR.pdf" download="/RESUME_ADITYA_KUMAR.pdf" className="cssbuttons-io-button shadow-lg">
                                 <span>Resume</span>
                                 <div className="icon">
                                     <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -111,7 +111,7 @@ function App() {
                         <div className="space-y-2 sm:space-y-4 md:space-y-6 text-center md:text-left flex flex-col justify-center hero-stagger md:pl-12">
                             <h1 className="text-5xl sm:text-4xl lg:text-5xl xl:text-6xl 2xl:text-8xl font-bold text-gray-800 leading-tight px-2 sm:px-0">
                                 <span className="text-purple-800">Hi,</span> I'm <br />
-                                <span className="text-purple-800 text-5xl sm:text-4xl lg:text-5xl xl:text-6xl 2xl:text-8xl">Satya Prakash</span>
+                                <span className="text-purple-800 text-5xl sm:text-4xl lg:text-5xl xl:text-6xl 2xl:text-8xl">Aditya Kumar</span>
                             </h1>
                             <h2 className="text-2xl sm:text-xl lg:text-2xl 2xl:text-4xl font-semibold text-purple-700">Full Stack Developer</h2>
                             <div className="relative w-1/4 h-[1.5px] mx-auto md:mx-0">
@@ -129,13 +129,29 @@ function App() {
                                 </button>
                             </div>
                         </div>
-                        <div className="relative flex justify-center items-center pb-4 sm:pb-0 md:-translate-y-4 hero-image-reveal mt-20 md:mt-0">
-                            <div className="hero-orbit-inner flex items-center justify-center">
-                                <div className="hero-avatar hover:scale-105 transition duration-500 shadow-[0_20px_50px_rgba(0,0,0,0.2)] z-10">
-                                    <img src="/images/ChatGPT Image Feb 8, 2026, 11_00_06 PM.png" loading="lazy" className="hero-avatar-img" alt="Hero" />
-                                </div>
-                            </div>
-                        </div>
+                       <div className="relative flex justify-center items-center pb-4 sm:pb-0 md:-translate-y-4 hero-image-reveal mt-20 md:mt-0">
+
+    <div className="relative 
+        w-[220px] h-[220px] 
+        sm:w-[260px] sm:h-[260px] 
+        md:w-[320px] md:h-[320px] 
+        rounded-full p-2 
+        bg-gradient-to-br from-purple-500/20 via-violet-400/10 to-indigo-500/20
+        shadow-[0_0_40px_rgba(139,92,246,0.25)]">
+
+        <div className="w-full h-full rounded-full overflow-hidden border border-white/10">
+
+            <img
+                src="/images/AdityaPhoto.png"
+                loading="lazy"
+                alt="Aditya Kumar"
+                className="w-full h-full object-cover object-top hover:scale-105 transition duration-500"
+            />
+
+        </div>
+    </div>
+
+</div>
                     </div>
                 </div>
             </section>
@@ -228,13 +244,13 @@ function App() {
                                     {/* Left Side: Desktop - Duration & Address */}
                                     <div className="w-full lg:w-1/2 lg:pr-16 text-center lg:text-right mb-6 lg:mb-0">
                                         <p className="text-sm sm:text-base lg:text-lg font-bold text-purple-600 dark:text-purple-400 mb-3 tracking-widest uppercase">
-                                            Jan 2026 – Present
+                                            May 2026 – Present
                                         </p>
                                         <h3 className="text-xl sm:text-2xl lg:text-4xl font-black text-purple-600 dark:text-purple-700 mb-3 tracking-tight">
-                                            WayOne IT Solutions
+                                            CSK INFORMATION TECHNOLOGY
                                         </h3>
                                         <p className="text-sm sm:text-base lg:text-lg text-gray-500 dark:text-gray-400 font-medium italic">
-                                            Ramesh Nagar, New Delhi, Above ICICI, 3rd Floor
+                                            NX ONE Tower-4 B-1206, Greator Noida
                                         </p>
                                     </div>
 
@@ -245,51 +261,14 @@ function App() {
                                 </div>
 
                                 {/* Experience Item 2 */}
-                                <div className="reveal relative flex flex-col lg:flex-row-reverse items-center lg:items-center w-full group">
-                                    {/* Right Side (since reversed): Desktop - Duration & Address */}
-                                    <div className="w-full lg:w-1/2 lg:pl-16 text-center lg:text-left mb-6 lg:mb-0">
-                                        <p className="text-sm sm:text-base lg:text-lg font-bold text-purple-600 dark:text-purple-400 mb-3 tracking-widest uppercase">
-                                            July 2025 – Dec 2025
-                                        </p>
-                                        <h3 className="text-xl sm:text-2xl lg:text-4xl font-black text-purple-600 dark:text-purple-700 mb-3 tracking-tight">
-                                            WTF Gyms
-                                        </h3>
-                                        <p className="text-sm sm:text-base lg:text-lg text-gray-500 dark:text-gray-400 font-medium italic">
-                                            Sector 9, AMCO Tower, 3rd Floor, Noida
-                                        </p>
-                                    </div>
-
-                                    {/* Timeline Dot */}
-                                    <div className="hidden lg:block absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 w-6 h-6 rounded-full bg-purple-600 border-4 border-white dark:border-gray-950 shadow-[0_0_20px_rgba(124,58,237,0.5)] z-10 group-hover:scale-125 transition-transform" />
-                                </div>
+                               
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
 
-            {/* <section id="work" className="relative w-full py-20 2xl:py-40 bg-transparent">
-                <div className="max-w-[1440px] 2xl:max-w-[1800px] mx-auto px-6 text-center">
-                    <h2 className="text-4xl md:text-5xl 2xl:text-7xl font-bold text-purple-800 mb-12 2xl:mb-20">Latest Work</h2>
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                        <article className="pt-card bg-transparent overflow-hidden group">
-                            <div className="h-48 bg-purple-200/50 rounded-lg mb-4"></div>
-                            <h3 className="text-xl font-bold text-purple-900">Project One</h3>
-                            <p className="text-sm text-purple-700 mt-2">Modern E-Commerce Solution</p>
-                        </article>
-                        <article className="pt-card bg-transparent overflow-hidden group">
-                            <div className="h-48 bg-indigo-200/50 rounded-lg mb-4"></div>
-                            <h3 className="text-xl font-bold text-purple-900">Project Two</h3>
-                            <p className="text-sm text-purple-700 mt-2">Cloud Analysis Dashboard</p>
-                        </article>
-                        <article className="pt-card bg-transparent overflow-hidden group">
-                            <div className="h-48 bg-pink-200/50 rounded-lg mb-4"></div>
-                            <h3 className="text-xl font-bold text-purple-900">Project Three</h3>
-                            <p className="text-sm text-purple-700 mt-2">AI Content Generator</p>
-                        </article>
-                    </div>
-                </div>
-            </section> */}
+          
 
             <section id="contact" className="relative w-full py-20 2xl:py-40 bg-transparent">
                 <div className="max-w-[1440px] 2xl:max-w-[1800px] mx-auto px-6">
@@ -338,7 +317,7 @@ function App() {
                         </div> */}
                         <article className="pt-card pt-thankyou bg-transparent">
                             <div className="pt-avatar-wrap bg-transparent">
-                                <img src="/images/ChatGPT Image Feb 8, 2026, 11_00_06 PM.png" alt="Avatar" loading="lazy" />
+                                <img src="/images/AdityaPhoto.png" alt="Avatar" loading="lazy" />
                             </div>
                             <div className="pt-thankyou-body">
                                 <h3>Thank You!</h3>
@@ -381,7 +360,7 @@ function App() {
                                         </div>
                                         <div>
                                             <p className="text-[10px] font-bold text-sky-900/100 dark:text-cyan-400/100 uppercase tracking-widest mb-0">Email</p>
-                                            <p className="text-[13px] font-semibold text-slate-800 dark:text-slate-100 transition-colors group-hover:text-sky-700 dark:group-hover:text-cyan-400">satyaaa768@gmail.com</p>
+                                            <p className="text-[13px] font-semibold text-slate-800 dark:text-slate-100 transition-colors group-hover:text-sky-700 dark:group-hover:text-cyan-400">ak008619@gmail.com</p>
                                         </div>
                                     </li>
                                     <li className="flex items-center gap-3.5 group cursor-pointer">
@@ -390,7 +369,7 @@ function App() {
                                         </div>
                                         <div>
                                             <p className="text-[10px] font-bold text-sky-900/100 dark:text-cyan-400/100 uppercase tracking-widest mb-0">Phone</p>
-                                            <p className="text-[13px] font-semibold text-slate-800 dark:text-slate-100 transition-colors group-hover:text-sky-700 dark:group-hover:text-cyan-400">+91 9719650753</p>
+                                            <p className="text-[13px] font-semibold text-slate-800 dark:text-slate-100 transition-colors group-hover:text-sky-700 dark:group-hover:text-cyan-400">+91 8859168467</p>
                                         </div>
                                     </li>
                                     <li className="flex items-center gap-3.5 group cursor-pointer">
@@ -399,7 +378,7 @@ function App() {
                                         </div>
                                         <div>
                                             <p className="text-[10px] font-bold text-sky-900/100 dark:text-cyan-400/100 uppercase tracking-widest mb-0">Location</p>
-                                            <p className="text-[13px] font-semibold text-slate-800 dark:text-slate-100 transition-colors group-hover:text-sky-700 dark:group-hover:text-cyan-400">New Delhi, India</p>
+                                            <p className="text-[13px] font-semibold text-slate-800 dark:text-slate-100 transition-colors group-hover:text-sky-700 dark:group-hover:text-cyan-400">Noida, India</p>
                                         </div>
                                     </li>
                                 </ul>
@@ -419,28 +398,45 @@ function App() {
                             </div>
 
                             {/* Column 3: Follow Us */}
-                            <div className="flex flex-col gap-4 lg:pl-10 lg:border-l border-sky-200/50 dark:border-white/5 sm:col-span-2 lg:col-span-1 sm:pt-6 lg:pt-0 sm:border-t lg:border-t-0 sm:mt-2 lg:mt-0">
-                                <h3 className="text-lg font-bold text-sky-800  dark:text-cyan-500  border-b-2 border-sky-400/20 dark:border-cyan-500/15 pb-1.5 inline-block self-start tracking-tight">
-                                    Follow Us
-                                </h3>
-                                <div className="flex gap-2.5">
-                                    <a href="javascript:void(0)" className="social-button github h-10 w-10 flex items-center justify-center transition-all">
-                                        <i className='bx bxl-github text-lg'></i>
-                                    </a>
-                                    <a href="javascript:void(0)" className="social-button linkedin h-10 w-10 flex items-center justify-center transition-all">
-                                        <i className='bx bxl-linkedin-square text-lg'></i>
-                                    </a>
-                                    <a href="javascript:void(0)" className="social-button twitter h-10 w-10 flex items-center justify-center transition-all">
-                                        <i className='bx bxl-twitter text-lg'></i>
-                                    </a>
-                                    <a href="javascript:void(0)" className="social-button instagram h-10 w-10 flex items-center justify-center transition-all">
-                                        <i className='bx bxl-instagram text-lg'></i>
-                                    </a>
-                                </div>
-                                {/* <div className="mt-auto">
-                                    <p className="text-[11px] italic opacity-60 leading-relaxed font-normal">Crafting digital excellence in New Delhi, India.</p>
-                                </div> */}
-                            </div>
+                           <div className="flex gap-2.5">
+
+    <a
+        href="https://github.com/Aditya206242"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="social-button github h-10 w-10 flex items-center justify-center transition-all"
+    >
+        <i className='bx bxl-github text-lg'></i>
+    </a>
+
+    <a
+        href="https://www.linkedin.com/in/aditya-chakravorty-304313229/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="social-button linkedin h-10 w-10 flex items-center justify-center transition-all"
+    >
+        <i className='bx bxl-linkedin-square text-lg'></i>
+    </a>
+
+    <a
+        href="https://twitter.com/yourusername"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="social-button twitter h-10 w-10 flex items-center justify-center transition-all"
+    >
+        <i className='bx bxl-twitter text-lg'></i>
+    </a>
+
+    <a
+        href="https://www.instagram.com/aditya_chakravorty_/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="social-button instagram h-10 w-10 flex items-center justify-center transition-all"
+    >
+        <i className='bx bxl-instagram text-lg'></i>
+    </a>
+
+</div>
 
                         </div>
                     </div>
@@ -448,7 +444,7 @@ function App() {
                     {/* Bottom Utility Bar */}
                     <div className="mt-6 flex flex-col md:flex-row justify-between items-center gap-4 text-slate-900 dark:text-gray-100 text-[11px]">
                         <p className="tracking-wide">
-                            &copy; {new Date().getFullYear()} <span className="text-sky-600 dark:text-cyan-400">Satya Prakash</span>.
+                            &copy; {new Date().getFullYear()} <span className="text-sky-600 dark:text-cyan-400">Aditya Kumar</span>.
                             Designed with <span className=" bg-gradient-to-r from-sky-600 to-purple-600 dark:from-cyan-400 dark:to-purple-400 bg-clip-text text-transparent tracking-wider">Passion & Precision</span>.
                         </p>
                         <button
